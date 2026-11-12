@@ -345,23 +345,3 @@ main,
     margin: 0;
     font-size: 13px;
 }
-
-@media (max-width: 680px) {
-    .site-header,
-    .page-links-panel {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .main-nav {
-        flex-wrap: wrap;
-    }
-
-    .subject-list {
-        grid-template-columns: 1fr;
-    }
-
-    .page-links-actions {
-        justify-content: flex-start;
-    }
-}
