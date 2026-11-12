@@ -1,40 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vakken</title>
+    <meta name="description" content="Bekijk de vakken van de opleiding Software Developer bij ROC Nijmegen.">
+    <title>Vakken | Software Developer | ROC Nijmegen</title>
+    <link rel="stylesheet" href="vakken-pagina.css">
 </head>
 <body>
-    <div class="page">
-        <header>
-            <button class="home-page-button">Home</button>
-            <button class="info-page-button">Roosters</button>
-        </header>
-        <main class="vakken-lijst">
-            <!--Voeg zo veel "vakblokken" als nodig maar verander de naam vak-naam1 naar het echte vak
-             en daarbij ook leerjaren1 (bijv. "burgerschap en dan leerjaren-burgerschap")-->
-            <div class="vakblok1">
-                <h2 class="vak-naam1"></h2>
-                <p class="leerjaren1"></p>
-            </div>
-            <div class="vakblok2">
-                <h2 class="vak-naam2"></h2>
-                <p class="leerjaren2"></p>
-            </div>
-            <div class="vakblok1">
-                <h2 class="vak-naam3"></h2>
-                <p class="leerjaren3"></p>
-            </div>
-            <div class="vakblok1">
-                <h2 class="vak-naam4"></h2>
-                <p class="leerjaren4"></p>
-            </div>
-            
-            
+    <header class="site-header">
+        <a class="site-brand" href="frontpage.html" aria-label="Software Developer ROC Nijmegen - home">
+            <img class="site-logo" src="../roc-nijmegen.png" alt="">
+            <span>ROC Nijmegen <strong>Software Developer</strong></span>
+        </a>
+        <nav class="main-nav" aria-label="Hoofdnavigatie">
+            <a class="nav-button" href="frontpage.html">Home</a>
+            <a class="nav-button" href="info-pagina.html">Opleidingsinformatie</a>
+            <a class="nav-button nav-button-highlight is-active" href="vakken-pagina.html" aria-current="page">Vakken</a>
+        </nav>
+    </header>
 
-        </main>
-    </div>
-    
+    <main>
+        <section class="content-hero">
+            <p class="section-label">Opleiding Software Developer</p>
+            <h1>Vakken tijdens de opleiding</h1>
+            <p>Je krijgt verschillende vakken die je helpen bij je opleiding tot Software Developer.</p>
+        </section>
+
+        <section class="information-section" aria-labelledby="subjects-title">
+            <p class="section-label">Wat ga je leren?</p>
+            <h2 id="subjects-title">Dit zijn de vakken</h2>
+            <div class="subject-list">
+                <article class="subject-item">
+                    <h2>Website</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Basis programmeren</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Basis ICT</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Burgerschap</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Engels</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Nederlands</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>Rekenen</h2>
+                </article>
+                <article class="subject-item">
+                    <h2>PPO</h2>
+                </article>
+            </div>
+        </section>
+
+        <section class="page-links-panel">
+            <div>
+                <p class="section-label">Meer weten?</p>
+                <h2>Ontdek de opleiding Software Developer.</h2>
+            </div>
+            <div class="page-links-actions">
+                <a class="action-link action-link-secondary" href="frontpage.html">Naar home</a>
+                <a class="action-link action-link-primary" href="info-pagina.html">Opleidingsinformatie <span aria-hidden="true">&rarr;</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="site-brand" href="frontpage.html">
+            <img class="site-logo" src="../roc-nijmegen.png" alt="">
+            <span>ROC Nijmegen <strong>Software Developer</strong></span>
+        </a>
+        <p>Informatie over Software Developer bij ROC Nijmegen.</p>
+    </footer>
 </body>
 </html>
